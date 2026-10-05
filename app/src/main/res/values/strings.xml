@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Devil AI</string>
+    <string name="accessibility_service_desc">Devil AI Assistant Accessibility Service allows Devil to perform hands-free actions like taking screenshots, pressing Home/Back, and locking the screen upon your voice request.</string>
+</resources>

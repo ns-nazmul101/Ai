@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Devil Horns / Cyber Crest -->
+    <path
+        android:pathData="M38,32 C35,22 41,20 45,28 C48,34 50,42 48,46 C45,43 40,38 38,32 Z"
+        android:fillColor="#FF2A55" />
+    <path
+        android:pathData="M70,32 C73,22 67,20 63,28 C60,34 58,42 60,46 C63,43 68,38 70,32 Z"
+        android:fillColor="#FF2A55" />
+
+    <!-- AI Core Face / Mask Silhouette with Gradient -->
+    <path android:pathData="M54,34 C41,34 32,45 32,58 C32,71 44,82 54,84 C64,82 76,71 76,58 C76,45 67,34 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="34"
+                android:endX="54"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FF3366" android:offset="0.0" />
+                <item android:color="#D60E3A" android:offset="0.7" />
+                <item android:color="#8A0522" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Cyber Eyes (Cyan / White) -->
+    <path
+        android:pathData="M40,54 L49,56 L43,60 Z"
+        android:fillColor="#00F0FF" />
+    <path
+        android:pathData="M68,54 L59,56 L65,60 Z"
+        android:fillColor="#00F0FF" />
+
+    <!-- Central Neural Voice Node -->
+    <path
+        android:pathData="M54,58 A4,4 0 1 0 54,66 A4,4 0 1 0 54,58"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Voice Frequency Lines (Mouth / Equalizer bars) -->
+    <path
+        android:pathData="M46,72 L46,75 M50,71 L50,76 M54,70 L54,77 M58,71 L58,76 M62,72 L62,75"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+</vector>
